@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+    color: white;
+  }
+  
+  /* App Container */
+  .app {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Homepage Styles */
+  .home-page {
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .chat-list {
+    margin-top: 20px;
+  }
+  
+  .chat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333;
+    border-radius: 5px;
+  }
+  
+  .add-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  /* Chat Page Styles */
+  .chat-page {
+    display: none;
+    padding: 20px;
+  }
+  
+  .chat-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .note-container {
+    margin-top: 20px;
+  }
+  
+  .note-block {
+    background-color: #333;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .note-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 5px;
+    color: white;
+  }
+  
+  .note-text {
+    font-size: 14px;
+    margin: 0;
+    color: white;
+    white-space: pre-wrap;
+  }
+  
+/* Posizionamento della X nell'intestazione */
+.note-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete-btn {
+    background: none;
+    border: none;
+    color: #ccc;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    color: red;
+  }
+  
+  
